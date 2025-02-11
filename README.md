@@ -1,8 +1,8 @@
-* Iterated Prisoners Dilemma
+# Iterated Prisoners Dilemma
 
 [Wiki Article](https://en.wikipedia.org/wiki/Prisoner%27s_dilemma)
 
-** Implementation
+## Implementation
 
 See [defector.py](defectory.py) and [coinflipper.py](coinflipper.py) for example implementations.
 
@@ -13,14 +13,14 @@ yourself.
 
 When done, add your player to the ones in experiment.py!
 
-** Running an individual game
+## Running an individual game
 
 This command will run a set of games between Defector and CoinFlipper.
 Change the names to your bot! Make sure you edit experiments.py and add your player.
 
 ```python experiment.py Defector CoinFlipper 100```
 
-** Tournament
+## Tournament
 
 Once we have enough players, we will run a tournament where every player plays
 every other player. The players with the most points at the end win!
