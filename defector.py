@@ -1,13 +1,13 @@
-class CoinFlipper(Prisoner):
+from participant import Move, Prisoner
+
+
+class Defector(Prisoner):
     @classmethod
     def get_name(self) -> str:
-        return "CoinFlipper"
+        return "Defector"
     
     def play(self) -> Move:
-        if random.random() < 0.5:
-            return Move.COOPERATE
-        else:
-            return Move.DEFECT
+        return Move.DEFECT
         
     def result(self, your_move: Move, their_move: Move, payout: int, their_payout: int) -> None:
         ...
