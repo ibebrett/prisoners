@@ -11,10 +11,12 @@ from participant import (
 
 from coinflipper import CoinFlipper
 from defector import Defector
+from mustafa1 import Mustafa1
 
 players = {
    CoinFlipper.get_name(): CoinFlipper,
    Defector.get_name(): Defector,
+   Mustafa1.get_name(): Mustafa1,
 }
 
 
@@ -71,12 +73,13 @@ if __name__ == '__main__':
     results = []
     for i, round in enumerate(run_game(player1, player2, args.num_games)):
         round: RoundResult
+        """         
         print(f"Round: {i}")
         print(f"{name1}: {round.player1_move}")
         print(f"{name2}: {round.player2_move}")
-        print(f"Points: {name1}: {round.player1_payout}, {name2}: {round.player2_payout})")
+        print(f"Points: {name1}: {round.player1_payout}, {name2}: {round.player2_payout})") 
         print(f"Total: {name1}: {round.player1_total}, {name2}: {round.player2_total})")
-
+        """
         results.append(round)
 
     result = ""
@@ -86,5 +89,8 @@ if __name__ == '__main__':
         result = f"{name1} wins"
     else:
         result = f"{name2} wins"
-
+        
+    print(f"Total: {name1}: {round.player1_total}, {name2}: {round.player2_total})")
     print(f"Result: {result}")
+    
+    
