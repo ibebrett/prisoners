@@ -9,6 +9,7 @@ from participant import (
     RoundResult
 )
 
+from amilcar1 import Amilcar1
 from coinflipper import CoinFlipper
 from defector import Defector
 from jacob1 import Jacob1
@@ -17,6 +18,7 @@ from memory import Memory
 from mustafa1 import Mustafa1
 
 players_list = [
+   Amilcar1,
    CoinFlipper,
    Defector,
    Jacob1,
