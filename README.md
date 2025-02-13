@@ -30,3 +30,38 @@ Change the names to your bot! Make sure you edit experiments.py and add your pla
 
 Once we have enough players, we will run a tournament where every player plays
 every other player. The players with the most points at the end win!
+
+To run a tournament just run
+
+```python tournament 10000```
+
+A sample of current standings:
+
+```
+ python3 tournament.py 10000
+Scores in order
+---------------
+Jacob5: 102479
+CoinFlipper: 90384
+Jacob1: 82298
+Memory: 81824
+Defector: 69988
+mustafa1: 64983
+Matches
+-------
+CoinFlipper vs Defector: 5007 to 29972
+CoinFlipper vs Jacob1: 22301 to 22301
+CoinFlipper vs Jacob5: 22337 to 22487
+CoinFlipper vs mustafa1: 16773 to 24968
+CoinFlipper vs Memory: 23966 to 21816
+Defector vs Jacob1: 10004 to 9999
+Defector vs Jacob5: 10012 to 9997
+Defector vs mustafa1: 10000 to 10000
+Defector vs Memory: 10000 to 10000
+Jacob1 vs Jacob5: 30000 to 30000
+Jacob1 vs mustafa1: 9999 to 10004
+Jacob1 vs Memory: 9999 to 10004
+Jacob5 vs mustafa1: 10001 to 10011
+Jacob5 vs Memory: 29994 to 30004
+mustafa1 vs Memory: 10000 to 10000
+```
