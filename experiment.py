@@ -11,10 +11,14 @@ from participant import (
 
 from coinflipper import CoinFlipper
 from defector import Defector
+from jacob1 import Jacob1
+from jacob5 import Jacob
 
 players = {
    CoinFlipper.get_name(): CoinFlipper,
    Defector.get_name(): Defector,
+   Jacob1.get_name(): Jacob1,
+   Jacob.get_name(): Jacob
 }
 
 
