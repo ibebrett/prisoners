@@ -13,15 +13,19 @@ from coinflipper import CoinFlipper
 from defector import Defector
 from jacob1 import Jacob1
 from jacob5 import Jacob
+from memory import Memory
 from mustafa1 import Mustafa1
 
-players = {
-   CoinFlipper.get_name(): CoinFlipper,
-   Defector.get_name(): Defector,
-   Jacob1.get_name(): Jacob1,
-   Jacob.get_name(): Jacob,
-   Mustafa1.get_name(): Mustafa1
-}
+players_list = [
+   CoinFlipper,
+   Defector,
+   Jacob1,
+   Jacob,
+   Mustafa1,
+   Memory
+]
+
+players = { p.get_name(): p for p in players_list }
 
 
 def run_game(p1: Prisoner, p2: Prisoner, num_games: int) -> typing.Iterable[RoundResult]:
