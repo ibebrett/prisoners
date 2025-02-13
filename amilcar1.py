@@ -8,7 +8,7 @@ class Amilcar1(Prisoner):
         self.coop_probability = 0.50
         self.their_history = []
         self.game_count = 0
-        self.opponent_name = None
+
 
     @classmethod
     def get_name(self) -> str:
