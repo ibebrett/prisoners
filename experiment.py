@@ -12,6 +12,7 @@ from participant import (
 from amilcar1 import Amilcar1
 from coinflipper import CoinFlipper
 from defector import Defector
+from derek1 import Derek1
 from jacob1 import Jacob1
 from jacob5 import Jacob
 from memory import Memory
@@ -21,6 +22,7 @@ from zack import Zack
 players_list = [
    Amilcar1,
    CoinFlipper,
+   Derek1,
    Defector,
    Jacob1,
    Jacob,
