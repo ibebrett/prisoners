@@ -16,6 +16,7 @@ from jacob1 import Jacob1
 from jacob5 import Jacob
 from memory import Memory
 from mustafa1 import Mustafa1
+from zack import Zack
 
 players_list = [
    Amilcar1,
@@ -24,7 +25,8 @@ players_list = [
    Jacob1,
    Jacob,
    Mustafa1,
-   Memory
+   Memory,
+   Zack
 ]
 
 players = { p.get_name(): p for p in players_list }
