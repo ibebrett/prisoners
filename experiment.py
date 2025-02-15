@@ -9,6 +9,7 @@ from participant import (
     RoundResult
 )
 
+from aibot import AIBot
 from amilcar1 import Amilcar1
 from coinflipper import CoinFlipper
 from defector import Defector
@@ -20,6 +21,7 @@ from mustafa1 import Mustafa1
 from zack import Zack
 
 players_list = [
+   AIBot,
    Amilcar1,
    CoinFlipper,
    Derek1,
