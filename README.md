@@ -38,47 +38,70 @@ To run a tournament just run
 A sample of current standings:
 
 ```
-python3 tournament.py 10000
+python3 tournament.py 30
 
 Scores in order
 ---------------
-Jacob5: 162430
-Jacob1: 122508
-Amilcar1: 120238
-Zack: 118012
-Memory: 116060
-CoinFlipper: 110512
-mustafa1: 98472
-Defector: 98012
+Jacob5: 608
+Zack: 509
+CoinFlipper: 504
+Memory: 500
+mustafa1: 494
+Jacob1: 490
+Defector: 490
+Amilcar1: 482
+DerekJOne: 468
+AIBot: 466
 Matches
 -------
-Amilcar1 vs CoinFlipper: 20276 to 27876
-Amilcar1 vs Defector: 7986 to 18056
-Amilcar1 vs Jacob1: 30000 to 30000
-Amilcar1 vs Jacob5: 30000 to 30000
-Amilcar1 vs mustafa1: 16069 to 23429
-Amilcar1 vs Memory: 7877 to 18492
-Amilcar1 vs Zack: 8030 to 17880
-CoinFlipper vs Defector: 5015 to 29940
-CoinFlipper vs Jacob1: 22514 to 22509
-CoinFlipper vs Jacob5: 22806 to 22441
-CoinFlipper vs mustafa1: 16713 to 25028
-CoinFlipper vs Memory: 10610 to 27560
-CoinFlipper vs Zack: 4978 to 30123
-Defector vs Jacob1: 10004 to 9999
-Defector vs Jacob5: 10012 to 9997
-Defector vs mustafa1: 10000 to 10000
-Defector vs Memory: 10000 to 10000
-Defector vs Zack: 10000 to 10000
-Jacob1 vs Jacob5: 30000 to 30000
-Jacob1 vs mustafa1: 9999 to 10004
-Jacob1 vs Memory: 9999 to 10004
-Jacob1 vs Zack: 10002 to 10007
-Jacob5 vs mustafa1: 10001 to 10011
-Jacob5 vs Memory: 29994 to 30004
-Jacob5 vs Zack: 29997 to 30002
-mustafa1 vs Memory: 10000 to 10000
-mustafa1 vs Zack: 10000 to 10000
-Memory vs Zack: 10000 to 10000
-
+AIBot vs Amilcar1: 83 to 53
+AIBot vs CoinFlipper: 76 to 71
+AIBot vs DerekJOne: 66 to 76
+AIBot vs Defector: 15 to 90
+AIBot vs Jacob1: 52 to 52
+AIBot vs Jacob5: 64 to 49
+AIBot vs mustafa1: 49 to 74
+AIBot vs Memory: 38 to 68
+AIBot vs Zack: 23 to 73
+Amilcar1 vs CoinFlipper: 68 to 93
+Amilcar1 vs DerekJOne: 69 to 64
+Amilcar1 vs Defector: 25 to 50
+Amilcar1 vs Jacob1: 89 to 89
+Amilcar1 vs Jacob5: 92 to 87
+Amilcar1 vs mustafa1: 35 to 60
+Amilcar1 vs Memory: 26 to 46
+Amilcar1 vs Zack: 25 to 50
+CoinFlipper vs DerekJOne: 68 to 68
+CoinFlipper vs Defector: 14 to 94
+CoinFlipper vs Jacob1: 65 to 65
+CoinFlipper vs Jacob5: 57 to 67
+CoinFlipper vs mustafa1: 56 to 81
+CoinFlipper vs Memory: 58 to 78
+CoinFlipper vs Zack: 22 to 77
+DerekJOne vs Defector: 15 to 90
+DerekJOne vs Jacob1: 75 to 75
+DerekJOne vs Jacob5: 81 to 71
+DerekJOne vs mustafa1: 59 to 79
+DerekJOne vs Memory: 15 to 90
+DerekJOne vs Zack: 15 to 90
+Defector vs Jacob1: 34 to 29
+Defector vs Jacob5: 42 to 27
+Defector vs mustafa1: 30 to 30
+Defector vs Memory: 30 to 30
+Defector vs Zack: 30 to 30
+Jacob1 vs Jacob5: 90 to 90
+Jacob1 vs mustafa1: 29 to 34
+Jacob1 vs Memory: 29 to 34
+Jacob1 vs Zack: 32 to 37
+Jacob5 vs mustafa1: 46 to 76
+Jacob5 vs Memory: 84 to 94
+Jacob5 vs Zack: 87 to 92
+mustafa1 vs Memory: 30 to 30
+mustafa1 vs Zack: 30 to 30
+Memory vs Zack: 30 to 30
 ```
+
+
+### OpenAI Bot
+
+The AIBot will not use OpenAI unless you have the python ```openai``` package installed and your environment variable ```OPENAI_API_KEY``` set. If the openai package is not available, it will fall back to being a cooperator.
