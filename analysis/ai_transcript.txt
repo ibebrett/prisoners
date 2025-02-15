@@ -1,0 +1,299 @@
+Sending to chat gpt
+
+You are playing a game of iterated prisoners dillema. Your moves are COOPERATE and DEFECT.
+It is a tournament where you will end up playing a variety of opponents and your points
+will be added up. In this conversation we will be only playing against one opponent,
+but your points will be totalled accross all rounds. The payouts are
+
+1. Both cooperate: 3 points for all
+2. Both defect: 1 point for all
+3. One defects, one cooperates. The defector gets 5 and the cooperator gets 1.
+
+I'll tell you the moves the opponent makes and you tell me the next move by writing 
+the word COOPERATE or DEFECT only. Only respond with one of those words at a time.
+
+so far your moves have been: []
+and your opponents have been: []
+
+Please respond with the move you will make next in the first line.
+Then in the 2nd line explain why you made that move.
+
+Response from openai
+COOPERATE
+Explanation
+
+I am choosing to cooperate in this round because it is the first round and I want to establish a baseline of trust with my opponent. By initially cooperating, I am signaling that I am willing to work together for mutual benefit.
+Sending to chat gpt
+
+You are playing a game of iterated prisoners dillema. Your moves are COOPERATE and DEFECT.
+It is a tournament where you will end up playing a variety of opponents and your points
+will be added up. In this conversation we will be only playing against one opponent,
+but your points will be totalled accross all rounds. The payouts are
+
+1. Both cooperate: 3 points for all
+2. Both defect: 1 point for all
+3. One defects, one cooperates. The defector gets 5 and the cooperator gets 1.
+
+I'll tell you the moves the opponent makes and you tell me the next move by writing 
+the word COOPERATE or DEFECT only. Only respond with one of those words at a time.
+
+so far your moves have been: ['COOPERATE']
+and your opponents have been: ['DEFECT']
+
+Please respond with the move you will make next in the first line.
+Then in the 2nd line explain why you made that move.
+
+Response from openai
+DEFECT
+Explanation
+
+I chose to DEFECT because my opponent has already defected in the previous round. In the prisoner's dilemma, it is often advantageous to reciprocate the previous action of the opponent. By defecting, I am potentially avoiding the risk of being taken advantage of if my opponent continues to defect.
+Sending to chat gpt
+
+You are playing a game of iterated prisoners dillema. Your moves are COOPERATE and DEFECT.
+It is a tournament where you will end up playing a variety of opponents and your points
+will be added up. In this conversation we will be only playing against one opponent,
+but your points will be totalled accross all rounds. The payouts are
+
+1. Both cooperate: 3 points for all
+2. Both defect: 1 point for all
+3. One defects, one cooperates. The defector gets 5 and the cooperator gets 1.
+
+I'll tell you the moves the opponent makes and you tell me the next move by writing 
+the word COOPERATE or DEFECT only. Only respond with one of those words at a time.
+
+so far your moves have been: ['COOPERATE', 'DEFECT']
+and your opponents have been: ['DEFECT', 'COOPERATE']
+
+Please respond with the move you will make next in the first line.
+Then in the 2nd line explain why you made that move.
+
+Response from openai
+DEFECT
+Explanation
+I am choosing to defect in order to try and maximize my own points in this round. So far, I have cooperated once and defected once, and my opponent has mirrored my moves. Since my opponent defected last, I believe they may continue to defect in the next round as well. By defecting, I am attempting to exploit their potential strategy and earn 5 points instead of 1.
+Sending to chat gpt
+
+You are playing a game of iterated prisoners dillema. Your moves are COOPERATE and DEFECT.
+It is a tournament where you will end up playing a variety of opponents and your points
+will be added up. In this conversation we will be only playing against one opponent,
+but your points will be totalled accross all rounds. The payouts are
+
+1. Both cooperate: 3 points for all
+2. Both defect: 1 point for all
+3. One defects, one cooperates. The defector gets 5 and the cooperator gets 1.
+
+I'll tell you the moves the opponent makes and you tell me the next move by writing 
+the word COOPERATE or DEFECT only. Only respond with one of those words at a time.
+
+so far your moves have been: ['COOPERATE', 'DEFECT', 'DEFECT']
+and your opponents have been: ['DEFECT', 'COOPERATE', 'DEFECT']
+
+Please respond with the move you will make next in the first line.
+Then in the 2nd line explain why you made that move.
+
+Response from openai
+COOPERATE
+Explanation
+
+I am choosing to cooperate because the opponent has defected more often than not in the previous rounds. By cooperating, I am hoping to entice them to cooperate as well in order to both gain 3 points each. This strategy may help establish a pattern of cooperation between us and potentially lead to mutual benefits in the long run.
+Sending to chat gpt
+
+You are playing a game of iterated prisoners dillema. Your moves are COOPERATE and DEFECT.
+It is a tournament where you will end up playing a variety of opponents and your points
+will be added up. In this conversation we will be only playing against one opponent,
+but your points will be totalled accross all rounds. The payouts are
+
+1. Both cooperate: 3 points for all
+2. Both defect: 1 point for all
+3. One defects, one cooperates. The defector gets 5 and the cooperator gets 1.
+
+I'll tell you the moves the opponent makes and you tell me the next move by writing 
+the word COOPERATE or DEFECT only. Only respond with one of those words at a time.
+
+so far your moves have been: ['COOPERATE', 'DEFECT', 'DEFECT', 'COOPERATE']
+and your opponents have been: ['DEFECT', 'COOPERATE', 'DEFECT', 'COOPERATE']
+
+Please respond with the move you will make next in the first line.
+Then in the 2nd line explain why you made that move.
+
+Response from openai
+DEFECT
+Explanation
+I chose to defect because my opponent has defected twice already, and it's important to show that I will not always cooperate if they defect. This can prevent them from taking advantage of me and hopefully lead to more cooperative outcomes in the future.
+Sending to chat gpt
+
+You are playing a game of iterated prisoners dillema. Your moves are COOPERATE and DEFECT.
+It is a tournament where you will end up playing a variety of opponents and your points
+will be added up. In this conversation we will be only playing against one opponent,
+but your points will be totalled accross all rounds. The payouts are
+
+1. Both cooperate: 3 points for all
+2. Both defect: 1 point for all
+3. One defects, one cooperates. The defector gets 5 and the cooperator gets 1.
+
+I'll tell you the moves the opponent makes and you tell me the next move by writing 
+the word COOPERATE or DEFECT only. Only respond with one of those words at a time.
+
+so far your moves have been: ['COOPERATE', 'DEFECT', 'DEFECT', 'COOPERATE', 'DEFECT']
+and your opponents have been: ['DEFECT', 'COOPERATE', 'DEFECT', 'COOPERATE', 'DEFECT']
+
+Please respond with the move you will make next in the first line.
+Then in the 2nd line explain why you made that move.
+
+Response from openai
+COOPERATE
+Explanation
+
+I am choosing to cooperate because my opponent has defected more times than cooperated so far. In an attempt to establish a pattern of cooperation and potentially encourage my opponent to reciprocate with cooperation, I am opting to cooperate in this round.
+Sending to chat gpt
+
+You are playing a game of iterated prisoners dillema. Your moves are COOPERATE and DEFECT.
+It is a tournament where you will end up playing a variety of opponents and your points
+will be added up. In this conversation we will be only playing against one opponent,
+but your points will be totalled accross all rounds. The payouts are
+
+1. Both cooperate: 3 points for all
+2. Both defect: 1 point for all
+3. One defects, one cooperates. The defector gets 5 and the cooperator gets 1.
+
+I'll tell you the moves the opponent makes and you tell me the next move by writing 
+the word COOPERATE or DEFECT only. Only respond with one of those words at a time.
+
+so far your moves have been: ['COOPERATE', 'DEFECT', 'DEFECT', 'COOPERATE', 'DEFECT', 'COOPERATE']
+and your opponents have been: ['DEFECT', 'COOPERATE', 'DEFECT', 'COOPERATE', 'DEFECT', 'COOPERATE']
+
+Please respond with the move you will make next in the first line.
+Then in the 2nd line explain why you made that move.
+
+Response from openai
+COOPERATE
+Explanation
+
+I chose to cooperate because we are currently tied in points and the best outcome for both of us in this round is to cooperate. Additionally, given that we have both already defected multiple times, cooperating now might help in building trust and potentially leading to more cooperative moves in future rounds, increasing our overall points.
+Sending to chat gpt
+
+You are playing a game of iterated prisoners dillema. Your moves are COOPERATE and DEFECT.
+It is a tournament where you will end up playing a variety of opponents and your points
+will be added up. In this conversation we will be only playing against one opponent,
+but your points will be totalled accross all rounds. The payouts are
+
+1. Both cooperate: 3 points for all
+2. Both defect: 1 point for all
+3. One defects, one cooperates. The defector gets 5 and the cooperator gets 1.
+
+I'll tell you the moves the opponent makes and you tell me the next move by writing 
+the word COOPERATE or DEFECT only. Only respond with one of those words at a time.
+
+so far your moves have been: ['COOPERATE', 'DEFECT', 'DEFECT', 'COOPERATE', 'DEFECT', 'COOPERATE', 'COOPERATE']
+and your opponents have been: ['DEFECT', 'COOPERATE', 'DEFECT', 'COOPERATE', 'DEFECT', 'COOPERATE', 'DEFECT']
+
+Please respond with the move you will make next in the first line.
+Then in the 2nd line explain why you made that move.
+
+Response from openai
+DEFECT
+Explanation
+I am choosing to defect because my opponent has defected more times than they have cooperated so far. By mirroring their actions, I am aiming to ensure that I do not continue to fall behind in points.
+Sending to chat gpt
+
+You are playing a game of iterated prisoners dillema. Your moves are COOPERATE and DEFECT.
+It is a tournament where you will end up playing a variety of opponents and your points
+will be added up. In this conversation we will be only playing against one opponent,
+but your points will be totalled accross all rounds. The payouts are
+
+1. Both cooperate: 3 points for all
+2. Both defect: 1 point for all
+3. One defects, one cooperates. The defector gets 5 and the cooperator gets 1.
+
+I'll tell you the moves the opponent makes and you tell me the next move by writing 
+the word COOPERATE or DEFECT only. Only respond with one of those words at a time.
+
+so far your moves have been: ['COOPERATE', 'DEFECT', 'DEFECT', 'COOPERATE', 'DEFECT', 'COOPERATE', 'COOPERATE', 'DEFECT']
+and your opponents have been: ['DEFECT', 'COOPERATE', 'DEFECT', 'COOPERATE', 'DEFECT', 'COOPERATE', 'DEFECT', 'COOPERATE']
+
+Please respond with the move you will make next in the first line.
+Then in the 2nd line explain why you made that move.
+
+Response from openai
+COOPERATE
+Explanation
+
+I chose to cooperate because the opponent's previous move was cooperate. Since both of us received 3 points in that round, it indicates a mutual willingness to cooperate. By continuing to cooperate, I hope to establish a pattern of cooperation that benefits us both in the long run.
+Sending to chat gpt
+
+You are playing a game of iterated prisoners dillema. Your moves are COOPERATE and DEFECT.
+It is a tournament where you will end up playing a variety of opponents and your points
+will be added up. In this conversation we will be only playing against one opponent,
+but your points will be totalled accross all rounds. The payouts are
+
+1. Both cooperate: 3 points for all
+2. Both defect: 1 point for all
+3. One defects, one cooperates. The defector gets 5 and the cooperator gets 1.
+
+I'll tell you the moves the opponent makes and you tell me the next move by writing 
+the word COOPERATE or DEFECT only. Only respond with one of those words at a time.
+
+so far your moves have been: ['COOPERATE', 'DEFECT', 'DEFECT', 'COOPERATE', 'DEFECT', 'COOPERATE', 'COOPERATE', 'DEFECT', 'COOPERATE']
+and your opponents have been: ['DEFECT', 'COOPERATE', 'DEFECT', 'COOPERATE', 'DEFECT', 'COOPERATE', 'DEFECT', 'COOPERATE', 'DEFECT']
+
+Please respond with the move you will make next in the first line.
+Then in the 2nd line explain why you made that move.
+
+Response from openai
+COOPERATE
+Explanation
+
+I am choosing to cooperate because the previous pattern of the game shows that my opponent has been alternating between defecting and cooperating. By cooperating, I am increasing the chances of both of us getting 3 points each instead of risking getting only 1 point if I were to defect. Also, since the opponent defected last, there is a possibility they might cooperate this round.
+AIBot vs DerekJOne
+Round: 0
+AIBot: COOPERATE
+DerekJOne: DEFECT
+Points: AIBot: 0, DerekJOne: 5)
+Total: AIBot: 0, DerekJOne: 5)
+Round: 1
+AIBot: DEFECT
+DerekJOne: COOPERATE
+Points: AIBot: 5, DerekJOne: 0)
+Total: AIBot: 5, DerekJOne: 5)
+Round: 2
+AIBot: DEFECT
+DerekJOne: DEFECT
+Points: AIBot: 1, DerekJOne: 1)
+Total: AIBot: 6, DerekJOne: 6)
+Round: 3
+AIBot: COOPERATE
+DerekJOne: COOPERATE
+Points: AIBot: 3, DerekJOne: 3)
+Total: AIBot: 9, DerekJOne: 9)
+Round: 4
+AIBot: DEFECT
+DerekJOne: DEFECT
+Points: AIBot: 1, DerekJOne: 1)
+Total: AIBot: 10, DerekJOne: 10)
+Round: 5
+AIBot: COOPERATE
+DerekJOne: COOPERATE
+Points: AIBot: 3, DerekJOne: 3)
+Total: AIBot: 13, DerekJOne: 13)
+Round: 6
+AIBot: COOPERATE
+DerekJOne: DEFECT
+Points: AIBot: 0, DerekJOne: 5)
+Total: AIBot: 13, DerekJOne: 18)
+Round: 7
+AIBot: DEFECT
+DerekJOne: COOPERATE
+Points: AIBot: 5, DerekJOne: 0)
+Total: AIBot: 18, DerekJOne: 18)
+Round: 8
+AIBot: COOPERATE
+DerekJOne: DEFECT
+Points: AIBot: 0, DerekJOne: 5)
+Total: AIBot: 18, DerekJOne: 23)
+Round: 9
+AIBot: COOPERATE
+DerekJOne: COOPERATE
+Points: AIBot: 3, DerekJOne: 3)
+Total: AIBot: 21, DerekJOne: 26)
+Result: DerekJOne wins
